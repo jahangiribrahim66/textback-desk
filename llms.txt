@@ -1,3 +1,19 @@
+# TextBack Desk
+
+> Done-for-you missed-call text-back for small HVAC, plumbing and electrical companies in the US, UK, Canada and Australia. Run by Jahangir.
+
+## What it is
+- An automatic text message sent within about 30 seconds when a business misses a customer's call.
+- Text-only. It does not answer or place phone calls.
+- Set up and managed for the business; written communication only.
+
+## Key facts
+- Pricing: founding price for the first 5 clients is $99 setup and $127 per month; confirmed in writing before payment.
+- US texting requires A2P 10DLC registration, which can take days to a couple of weeks.
+- Industry figures on the site are from third-party reports, not from the owner's own clients.
+
+## Pages
+- Home: https://jahangiribrahim66.github.io/textback-desk/
 - HVAC: https://jahangiribrahim66.github.io/textback-desk/hvac/
 - Plumbing: https://jahangiribrahim66.github.io/textback-desk/plumbing/
 - Electrical: https://jahangiribrahim66.github.io/textback-desk/electrical/
