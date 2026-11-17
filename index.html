@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Missed-Call Text-Back for HVAC, Plumbing & Electricians</title>
+<meta name="description" content="Done-for-you missed-call text-back for small HVAC, plumbing and electrical companies in the US, UK, Canada and Australia. Every missed call gets a text within 30 seconds.">
+<link rel="canonical" href="https://jahangiribrahim66.github.io/textback-desk/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Missed-Call Text-Back for HVAC, Plumbing & Electricians">
+<meta property="og:description" content="A customer who can't reach you calls the next company. I set up a text that goes out within 30 seconds of every missed call.">
+<meta property="og:url" content="https://jahangiribrahim66.github.io/textback-desk/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%23d9480f%27/%3E%3Cpath d=%27M8 10h16v9H15l-5 4v-4H8z%27 fill=%27white%27/%3E%3C/svg%3E">
+<meta name="theme-color" content="#d9480f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Direction: dispatch board. Truck-lettering headlines (condensed Archivo), hi-vis orange used only for the action, slate everywhere else. */
+:root{
+  --bg:#eef1f3; --surface:#ffffff; --ink:#15202b; --muted:#4b5b68; --line:#d3dbe1;
+  --accent:#d9480f; --accent-ink:#ffffff; --slate:#2f4858; --bubble:#e3e9ee;
+  --display:"Archivo","Arial Narrow",Arial,sans-serif; --body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#10181f;--surface:#18232c;--ink:#eef2f5;--muted:#a3b2be;--line:#2b3a46;--accent:#ff7a3d;--accent-ink:#10181f;--slate:#7fa3b8;--bubble:#243441;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#10181f;--surface:#18232c;--ink:#eef2f5;--muted:#a3b2be;--line:#2b3a46;--accent:#ff7a3d;--accent-ink:#10181f;--slate:#7fa3b8;--bubble:#243441;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--body)}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:14px;padding-bottom:14px}
+.brand{font:800 20px/1 var(--display);font-stretch:75%;letter-spacing:.02em;text-transform:uppercase}
+.brand span{color:var(--accent)}
+nav a{margin-left:18px;text-decoration:none;font-weight:500;color:var(--muted);font-size:15px}
+nav a:hover,nav a:focus-visible{color:var(--ink);text-decoration:underline}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:clamp(40px,7vw,76px);font-weight:900;font-stretch:70%;line-height:.98;text-transform:uppercase;letter-spacing:.005em}
+h2{font-size:clamp(28px,4.4vw,44px);font-weight:800;font-stretch:75%;text-transform:uppercase;line-height:1.05}
+h3{font-size:20px;font-weight:700;font-stretch:85%}
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:center;padding:56px 0 48px}
+.hero p.lead{font-size:20px;color:var(--muted);max-width:34em;margin:20px 0 28px}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);font-weight:600;padding:14px 22px;border-radius:6px;text-decoration:none;border:2px solid var(--accent)}
+.btn:hover,.btn:focus-visible{outline:3px solid var(--slate);outline-offset:2px}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line);margin-left:10px}
+.fine{font-size:14px;color:var(--muted)}
+.phone{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:0 12px 30px rgba(21,32,43,.12)}
+.phone .tag{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:12px;display:flex;justify-content:space-between}
+.msg{max-width:88%;padding:10px 14px;border-radius:16px;margin:8px 0;font-size:15px;line-height:1.45}
+.msg.in{background:var(--bubble);border-bottom-left-radius:4px}
+.msg.out{background:var(--slate);color:#fff;margin-left:auto;border-bottom-right-radius:4px}
+:root[data-theme="dark"] .msg.out{color:#10181f}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .msg.out{color:#10181f}}
+.sys{text-align:center;font-size:13px;color:var(--accent);font-weight:600;margin:6px 0}
+.time{font-size:12px;color:var(--muted);text-align:right;margin:-2px 4px 6px}
+section{padding:48px 0;border-top:1px solid var(--line)}
+section>.wrap>h2{margin-bottom:24px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:22px}
+.card .n{font:900 44px/1 var(--display);font-stretch:70%;color:var(--accent)}
+.card p{margin:8px 0 0;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.stat b{display:block;font:900 56px/1 var(--display);font-stretch:70%}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+ul.tick,ul.cross{list-style:none;padding:0;margin:14px 0 0}
+ul.tick li,ul.cross li{padding-left:26px;position:relative;margin:8px 0}
+ul.tick li::before{content:"\2713";position:absolute;left:0;color:var(--accent);font-weight:700}
+ul.cross li::before{content:"\2715";position:absolute;left:0;color:var(--muted)}
+.price{display:flex;flex-wrap:wrap;gap:28px;align-items:baseline}
+.price b{font:900 54px/1 var(--display);font-stretch:70%}
+details{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:10px 0}
+summary{font-weight:600;cursor:pointer}
+details p{margin:10px 0 0;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:32px 0 48px;color:var(--muted);font-size:14px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+@media (max-width:760px){
+  .hero,.grid3,.two,.stats{grid-template-columns:1fr}
+  .btn.ghost{margin:10px 0 0}
+  nav a{margin-left:12px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.skip{position:absolute;left:-999px}.skip:focus{left:10px;top:10px;background:var(--surface);padding:8px 12px;z-index:9}
+.crumbs{font-size:14px;color:var(--muted);padding-top:18px}.crumbs a{color:var(--muted)}
+.links{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:10px}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebSite",
+      "@id":"https://jahangiribrahim66.github.io/textback-desk/#website",
+      "url":"https://jahangiribrahim66.github.io/textback-desk/",
+      "name":"Missed-Call Text-Back for Home Service Companies",
+      "inLanguage":"en"
+    },
+    {
+      "@type":"Service",
+      "@id":"https://jahangiribrahim66.github.io/textback-desk/#service",
+      "name":"Done-for-you missed-call text-back",
+      "serviceType":"Missed-call text-back setup and management",
+      "description":"Setup and monthly management of an automatic text message that goes out when a home-service company misses a phone call. Built for small HVAC, plumbing and electrical companies.",
+      "provider":{"@type":"Person","name":"Jahangir"},
+      "areaServed":["United States","United Kingdom","Canada","Australia"],
+      "audience":{"@type":"BusinessAudience","audienceType":"HVAC, plumbing and electrical contractors"},
+      "url":"https://jahangiribrahim66.github.io/textback-desk/"
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"What is missed-call text-back?","acceptedAnswer":{"@type":"Answer","text":"Missed-call text-back is an automatic text message sent to a customer when their call to your business goes unanswered. It keeps the conversation open so the customer does not call the next company."}},
+        {"@type":"Question","name":"Is this an AI that answers my phone calls?","acceptedAnswer":{"@type":"Answer","text":"No. This service is text-only. It does not answer or place phone calls. It sends a text after a missed call and collects the customer's job details by text."}},
+        {"@type":"Question","name":"Do I need to register my business to send these texts in the US?","acceptedAnswer":{"@type":"Answer","text":"Yes. US carriers require A2P 10DLC registration for business texts sent from a standard local number, including automatic missed-call replies. It needs your legal business name, address, website and usually an EIN. Approval can take days to a couple of weeks, so texts may not go live on day one."}},
+        {"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"Setup is $299 and the monthly fee is $197. The exact price is confirmed in writing before you pay anything."}},
+        {"@type":"Question","name":"Which countries and trades do you work with?","acceptedAnswer":{"@type":"Answer","text":"Small HVAC, plumbing and electrical companies in the United States, United Kingdom, Canada and Australia."}}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">Text<span>Back</span> Desk</div>
+    <nav aria-label="Main"><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></nav>
+  </div>
+</header>
+
+<main id="main">
+<div class="wrap">
+  <div class="hero">
+    <div>
+      <h1>You missed the call. Your competitor didn't.</h1>
+      <p class="lead">When a customer can't reach a home-service company, they usually call the next one on the list. I set up a text that goes out within 30 seconds of every missed call, so the job stays yours.</p>
+      <a class="btn" href="mailto:textbackdesk.jahangir@gmail.com?subject=Free%20test%20of%20missed-call%20text-back">Ask for a free test</a>
+      <a class="btn ghost" href="#how">See how it works</a>
+      <p class="fine" style="margin-top:16px">For small HVAC, plumbing and electrical companies in the US, UK, Canada and Australia. Contact: textbackdesk.jahangir@gmail.com</p>
+    </div>
+    <div class="phone" role="group" aria-label="Example text thread">
+      <div class="tag"><span>Example thread</span><span>Demo, not a real client</span></div>
+      <div class="sys">Missed call &middot; 6:42 PM</div>
+      <div class="msg out">Hi, this is Example HVAC Co. Sorry we missed your call. What's going on with your system, and what's the address? We'll get right back to you. Reply STOP to opt out.</div>
+      <div class="time">6:42 PM &middot; sent in 28 seconds</div>
+      <div class="msg in">AC stopped cooling. House is 88 degrees. 14 Maple Ave.</div>
+      <div class="time">6:44 PM</div>
+    </div>
+  </div>
+</div>
+
+<section id="why">
+  <div class="wrap">
+    <h2>Why it matters</h2>
+    <div class="stats">
+      <div class="card stat"><b>~27%</b>of home-service calls go unanswered (Invoca call data, reported by Techloy).</div>
+      <div class="card stat"><b>$1,205</b>average HVAC repair job (Housecall Pro 2025 figures, reported by Aibrify).</div>
+    </div>
+    <p class="fine" style="margin-top:14px">Industry figures from third-party reports, not results from my own clients.</p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <div class="grid3">
+      <div class="card"><div class="n">1</div><h3>You send me details</h3><p>Business name, the number customers call, and the services you offer. I write the text in plain, friendly English.</p></div>
+      <div class="card"><div class="n">2</div><h3>I set it up</h3><p>I configure the text-back, test it with real calls, and guide you through the carrier registration US texting needs.</p></div>
+      <div class="card"><div class="n">3</div><h3>Missed calls get a text</h3><p>The customer replies, you see the job details, and you call back the ones worth your time.</p></div>
+    </div>
+    <div class="two" style="margin-top:18px">
+      <div class="card"><h3>What you get</h3>
+        <ul class="tick"><li>Text-back written for your trade</li><li>Opt-out line on every message</li><li>Test calls before it goes live</li><li>Monthly check that it still works</li></ul></div>
+      <div class="card"><h3>What this is not</h3>
+        <ul class="cross"><li>Not a voice AI. It does not answer or place calls</li><li>Not a guarantee of more jobs</li><li>Not a phone company. You keep your number</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="trades"><div class="wrap"><h2>Pages by trade</h2><div class="grid3"><div class="card"><h3>HVAC</h3><p>Missed-call text-back for small HVAC companies in the US, UK, Canada and Australia.</p><p><a href="hvac/">See the HVAC page</a></p></div><div class="card"><h3>Plumbing</h3><p>Missed-call text-back for small plumbing companies in the US, UK, Canada and Australia.</p><p><a href="plumbing/">See the Plumbing page</a></p></div><div class="card"><h3>Electrical</h3><p>Missed-call text-back for small electrical contractors in the US, UK, Canada and Australia.</p><p><a href="electrical/">See the Electrical page</a></p></div></div></div></section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Pricing</h2>
+    <div class="card">
+      <div class="price"><div><b>$299</b><div class="fine">one-time setup</div></div><div><b>$197</b><div class="fine">per month</div></div></div>
+      <p class="fine" style="margin-top:14px">The exact price and what it covers are confirmed in writing before you pay anything. All communication is by email, so there are no sales calls.</p>
+      <p style="margin-top:18px"><a class="btn" href="mailto:textbackdesk.jahangir@gmail.com?subject=Missed-call%20text-back">Email me</a></p>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2>Questions</h2>
+    <details><summary>What is missed-call text-back?</summary><p>It is an automatic text sent to a customer when their call to your business goes unanswered. It keeps the conversation open so the customer does not call the next company.</p></details>
+    <details><summary>Is this an AI that answers my phone calls?</summary><p>No. This service is text-only. It does not answer or place phone calls. It sends a text after a missed call and collects the customer's job details by text.</p></details>
+    <details><summary>Do I need to register my business to send these texts in the US?</summary><p>Yes. US carriers require A2P 10DLC registration for business texts sent from a standard local number, including automatic missed-call replies. It needs your legal business name, address, website and usually an EIN. Approval can take days to a couple of weeks, so texts may not go live on day one.</p></details>
+    <details><summary>How much does it cost?</summary><p>Setup is $299 and the monthly fee is $197. The exact price is confirmed in writing before you pay anything.</p></details>
+    <details><summary>Which countries and trades do you work with?</summary><p>Small HVAC, plumbing and electrical companies in the United States, United Kingdom, Canada and Australia.</p></details>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>TextBack Desk</strong> &middot; Run by Jahangir. Contact: textbackdesk.jahangir@gmail.com</p>
+    <div class="links"><a href="hvac/">HVAC</a><a href="plumbing/">Plumbing</a><a href="electrical/">Electrical</a></div>
+    <p>Example messages on this page are demonstrations, not real customer conversations. Results vary by business and call volume.</p>
+  </div>
+</footer>
+</body>
+</html>
