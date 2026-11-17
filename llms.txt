@@ -8,7 +8,7 @@
 - Set up and managed for the business; written communication only.
 
 ## Key facts
-- Pricing: founding price for the first 5 clients is $99 setup and $127 per month; confirmed in writing before payment.
+- Pricing: founding price for the first 5 clients is $99 setup and $127 per month; standard pricing is $299 setup and $197 per month. Month-to-month, confirmed in writing before payment.
 - US texting requires A2P 10DLC registration, which can take days to a couple of weeks.
 - Industry figures on the site are from third-party reports, not from the owner's own clients.
 
@@ -17,3 +17,5 @@
 - HVAC: https://jahangiribrahim66.github.io/textback-desk/hvac/
 - Plumbing: https://jahangiribrahim66.github.io/textback-desk/plumbing/
 - Electrical: https://jahangiribrahim66.github.io/textback-desk/electrical/
+- Privacy: https://jahangiribrahim66.github.io/textback-desk/privacy/
+- Terms: https://jahangiribrahim66.github.io/textback-desk/terms/

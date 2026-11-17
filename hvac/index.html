@@ -3,122 +3,173 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Missed-Call Text-Back for HVAC Companies</title>
-<meta name="description" content="Missed-call text-back for small HVAC companies in the US, UK, Canada and Australia. Every missed call gets a text within 30 seconds, written for AC and heating jobs.">
+<title>Missed-Call Text-Back for HVAC Companies | TextBack Desk</title>
+<meta name="description" content="Missed-call text-back for small HVAC companies in the US, UK, Canada and Australia. A text goes out within about 30 seconds of a missed call, written for HVAC jobs.">
 <link rel="canonical" href="https://jahangiribrahim66.github.io/textback-desk/hvac/">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#d9480f">
-<meta property="og:type" content="website"><meta property="og:title" content="Missed-Call Text-Back for HVAC Companies"><meta property="og:description" content="Missed-call text-back for small HVAC companies in the US, UK, Canada and Australia. Every missed call gets a text within 30 seconds, written for AC and heating jobs."><meta property="og:url" content="https://jahangiribrahim66.github.io/textback-desk/hvac/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%23d9480f%27/%3E%3Cpath d=%27M8 10h16v9H15l-5 4v-4H8z%27 fill=%27white%27/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TextBack Desk">
+<meta property="og:title" content="Missed-Call Text-Back for HVAC Companies | TextBack Desk">
+<meta property="og:description" content="Missed-call text-back for small HVAC companies in the US, UK, Canada and Australia. A text goes out within about 30 seconds of a missed call, written for HVAC jobs.">
+<meta property="og:url" content="https://jahangiribrahim66.github.io/textback-desk/hvac/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cdefs%3E%3ClinearGradient id=%27g%27 x1=%270%27 y1=%270%27 x2=%271%27 y2=%271%27%3E%3Cstop offset=%270%27 stop-color=%27%234d7cff%27/%3E%3Cstop offset=%271%27 stop-color=%27%238a5cf6%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27url(%23g)%27/%3E%3Cpath d=%27M8 10h16v9H15l-5 4v-4H8z%27 fill=%27white%27/%3E%3C/svg%3E">
+<meta name="theme-color" content="#060914">
+<meta name="color-scheme" content="dark">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-/* Direction: dispatch board. Truck-lettering headlines (condensed Archivo), hi-vis orange used only for the action, slate everywhere else. */
-:root{
-  --bg:#eef1f3; --surface:#ffffff; --ink:#15202b; --muted:#4b5b68; --line:#d3dbe1;
-  --accent:#d9480f; --accent-ink:#ffffff; --slate:#2f4858; --bubble:#e3e9ee;
-  --display:"Archivo","Arial Narrow",Arial,sans-serif; --body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){--bg:#10181f;--surface:#18232c;--ink:#eef2f5;--muted:#a3b2be;--line:#2b3a46;--accent:#ff7a3d;--accent-ink:#10181f;--slate:#7fa3b8;--bubble:#243441;color-scheme:dark}
-}
-:root[data-theme="dark"]{--bg:#10181f;--surface:#18232c;--ink:#eef2f5;--muted:#a3b2be;--line:#2b3a46;--accent:#ff7a3d;--accent-ink:#10181f;--slate:#7fa3b8;--bubble:#243441;color-scheme:dark}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--body)}
-a{color:inherit}
-.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-header.top{border-bottom:1px solid var(--line)}
-header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:14px;padding-bottom:14px}
-.brand{font:800 20px/1 var(--display);font-stretch:75%;letter-spacing:.02em;text-transform:uppercase}
-.brand span{color:var(--accent)}
-nav a{margin-left:18px;text-decoration:none;font-weight:500;color:var(--muted);font-size:15px}
-nav a:hover,nav a:focus-visible{color:var(--ink);text-decoration:underline}
-h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
-h1{font-size:clamp(40px,7vw,76px);font-weight:900;font-stretch:70%;line-height:.98;text-transform:uppercase;letter-spacing:.005em}
-h2{font-size:clamp(28px,4.4vw,44px);font-weight:800;font-stretch:75%;text-transform:uppercase;line-height:1.05}
-h3{font-size:20px;font-weight:700;font-stretch:85%}
-.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:center;padding:56px 0 48px}
-.hero p.lead{font-size:20px;color:var(--muted);max-width:34em;margin:20px 0 28px}
-.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);font-weight:600;padding:14px 22px;border-radius:6px;text-decoration:none;border:2px solid var(--accent)}
-.btn:hover,.btn:focus-visible{outline:3px solid var(--slate);outline-offset:2px}
-.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line);margin-left:10px}
-.fine{font-size:14px;color:var(--muted)}
-.phone{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:0 12px 30px rgba(21,32,43,.12)}
-.phone .tag{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:12px;display:flex;justify-content:space-between}
-.msg{max-width:88%;padding:10px 14px;border-radius:16px;margin:8px 0;font-size:15px;line-height:1.45}
-.msg.in{background:var(--bubble);border-bottom-left-radius:4px}
-.msg.out{background:var(--slate);color:#fff;margin-left:auto;border-bottom-right-radius:4px}
-:root[data-theme="dark"] .msg.out{color:#10181f}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .msg.out{color:#10181f}}
-.sys{text-align:center;font-size:13px;color:var(--accent);font-weight:600;margin:6px 0}
-.time{font-size:12px;color:var(--muted);text-align:right;margin:-2px 4px 6px}
-section{padding:48px 0;border-top:1px solid var(--line)}
-section>.wrap>h2{margin-bottom:24px}
-.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:22px}
-.card .n{font:900 44px/1 var(--display);font-stretch:70%;color:var(--accent)}
-.card p{margin:8px 0 0;color:var(--muted)}
-.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.stat b{display:block;font:900 56px/1 var(--display);font-stretch:70%}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-ul.tick,ul.cross{list-style:none;padding:0;margin:14px 0 0}
-ul.tick li,ul.cross li{padding-left:26px;position:relative;margin:8px 0}
-ul.tick li::before{content:"\2713";position:absolute;left:0;color:var(--accent);font-weight:700}
-ul.cross li::before{content:"\2715";position:absolute;left:0;color:var(--muted)}
-.price{display:flex;flex-wrap:wrap;gap:28px;align-items:baseline}
-.price b{font:900 54px/1 var(--display);font-stretch:70%}
-details{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:10px 0}
-summary{font-weight:600;cursor:pointer}
-details p{margin:10px 0 0;color:var(--muted)}
-footer{border-top:1px solid var(--line);padding:32px 0 48px;color:var(--muted);font-size:14px}
-:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-@media (max-width:760px){
-  .hero,.grid3,.two,.stats{grid-template-columns:1fr}
-  .btn.ghost{margin:10px 0 0}
-  nav a{margin-left:12px}
-}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-
-.skip{position:absolute;left:-999px}.skip:focus{left:10px;top:10px;background:var(--surface);padding:8px 12px;z-index:9}
-.crumbs{font-size:14px;color:var(--muted);padding-top:18px}.crumbs a{color:var(--muted)}
-.links{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:10px}
-</style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Service", "@id": "https://jahangiribrahim66.github.io/textback-desk/hvac/#service", "name": "Missed-call text-back for HVAC companies", "serviceType": "Missed-call text-back setup and management", "description": "Missed-call text-back for small HVAC companies in the US, UK, Canada and Australia. Every missed call gets a text within 30 seconds, written for AC and heating jobs.", "provider": {"@type": "Person", "name": "Jahangir"}, "areaServed": ["United States", "United Kingdom", "Canada", "Australia"], "audience": {"@type": "BusinessAudience", "audienceType": "HVAC companies"}, "url": "https://jahangiribrahim66.github.io/textback-desk/hvac/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jahangiribrahim66.github.io/textback-desk/"}, {"@type": "ListItem", "position": 2, "name": "Missed-Call Text-Back for HVAC Companies", "item": "https://jahangiribrahim66.github.io/textback-desk/hvac/"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is missed-call text-back?", "acceptedAnswer": {"@type": "Answer", "text": "It is an automatic text sent to a customer when their call to your business goes unanswered. It keeps the conversation open so the customer does not call the next company."}}, {"@type": "Question", "name": "Is this an AI that answers my phone calls?", "acceptedAnswer": {"@type": "Answer", "text": "No. This service is text-only. It does not answer or place phone calls."}}, {"@type": "Question", "name": "Can the text tell emergency calls from routine ones?", "acceptedAnswer": {"@type": "Answer", "text": "The text asks one simple question about what is wrong. You read the reply and decide who to call back first. It does not dispatch a technician or book a job by itself."}}, {"@type": "Question", "name": "Do I need to register my business to send these texts in the US?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. US carriers require A2P 10DLC registration for business texts sent from a standard local number, including automatic missed-call replies. It needs your legal business name, address, website and usually an EIN. Approval can take days to a couple of weeks, so texts may not go live on day one."}}, {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "Founding price for the first 5 clients: $99 setup and $127 per month, month-to-month. The exact price is confirmed in writing before you pay anything."}}]}]}</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Service", "@id": "https://jahangiribrahim66.github.io/textback-desk/hvac/#service", "name": "Missed-call text-back for HVAC companies", "serviceType": "Missed-call text-back setup and management", "description": "Missed-call text-back for small HVAC companies in the US, UK, Canada and Australia. A text goes out within about 30 seconds of a missed call, written for HVAC jobs.", "provider": {"@type": "Person", "name": "Jahangir", "email": "textbackdesk.jahangir@gmail.com"}, "areaServed": ["United States", "United Kingdom", "Canada", "Australia"], "audience": {"@type": "BusinessAudience", "audienceType": "HVAC companies"}, "url": "https://jahangiribrahim66.github.io/textback-desk/hvac/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jahangiribrahim66.github.io/textback-desk/"}, {"@type": "ListItem", "position": 2, "name": "Missed-Call Text-Back for HVAC Companies", "item": "https://jahangiribrahim66.github.io/textback-desk/hvac/"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How does TextBack Desk work?", "acceptedAnswer": {"@type": "Answer", "text": "When a customer calls your business number and nobody answers, an automatic text goes out to that caller. The customer can reply, the conversation collects their job details, and you see the lead so you can call back the ones worth your time. It is text-only: it does not answer or place phone calls."}}, {"@type": "Question", "name": "Can the text tell emergency calls from routine ones?", "acceptedAnswer": {"@type": "Answer", "text": "The text asks one simple question about what is wrong. You read the reply and decide who to call back first. It does not dispatch a technician or book a job by itself."}}, {"@type": "Question", "name": "Do I need to change my phone number?", "acceptedAnswer": {"@type": "Answer", "text": "No. You keep your existing business number and your customers keep calling it. The exact call-handling setup depends on your phone provider and is worked out with you during setup."}}, {"@type": "Question", "name": "How quickly does the customer receive a text?", "acceptedAnswer": {"@type": "Answer", "text": "The goal is within about 30 seconds of the missed call. In the US, business texting first needs A2P 10DLC carrier registration (your legal business name, address, website and usually an EIN). Approval can take days to a couple of weeks, so texts may not go live on day one."}}, {"@type": "Question", "name": "Is there a setup fee?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The founding price for the first 5 clients is $99 setup and $127 per month. Standard pricing after that is $299 setup and $197 per month. The exact price is confirmed in writing before you pay anything."}}, {"@type": "Question", "name": "Can I cancel my subscription?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. It is month-to-month and you can cancel anytime."}}]}]}</script>
 </head>
-<body>
+<body data-trade="hvac">
 <a class="skip" href="#main">Skip to content</a>
-<header class="top"><div class="wrap"><div class="brand"><a href="../" style="text-decoration:none">Text<span>Back</span> Desk</a></div><nav aria-label="Main"><a href="../#how">How it works</a><a href="../#pricing">Pricing</a><a href="../#faq">FAQ</a></nav></div></header>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="TextBack Desk home"><span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></span>TextBack Desk</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span class="bars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 7h16M4 12h16M4 17h16"/></svg></span><span class="x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M6 6l12 12M18 6 6 18"/></svg></span></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="../#demo">Live demo</a>
+      <a href="../#how">How it works</a>
+      <a href="../#industries">Industries</a>
+      <a href="../#pricing">Pricing</a>
+      <a href="../#faq">FAQ</a>
+      <a class="btn sm" href="mailto:textbackdesk.jahangir@gmail.com?subject=Missed-call%20text-back">Get started</a>
+    </nav>
+  </div>
+</header>
+
 <main id="main">
-<div class="wrap">
-  <div class="crumbs"><a href="../">Home</a> / HVAC</div>
-  <div class="hero">
+<section class="hero">
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="wrap hero-grid">
     <div>
-      <h1>HVAC calls don't leave voicemails.</h1>
-      <p class="lead">A homeowner with a dead AC calls two or three companies in a row. The first one to reply usually gets the job. I set up a text that goes out within 30 seconds of every call you miss.</p>
-      <a class="btn" href="mailto:textbackdesk.jahangir@gmail.com?subject=Free%20test%20of%20missed-call%20text-back">Ask for a free test</a>
-      <p class="fine" style="margin-top:16px">For small HVAC companies in the US, UK, Canada and Australia. Contact: textbackdesk.jahangir@gmail.com</p>
+      <p class="crumbs reveal"><a href="../">Home</a> / HVAC</p>
+      <h1 class="reveal">HVAC calls don&rsquo;t leave voicemails.</h1>
+      <p class="lead reveal" style="--d:.08s">A homeowner with a dead AC calls two or three companies in a row. The first one to reply usually gets the job. I set up an AI-assisted text that goes out within about 30 seconds of every call you miss.</p>
+      <div class="cta-row reveal" style="--d:.16s">
+        <a class="btn" href="mailto:textbackdesk.jahangir@gmail.com?subject=Free%20test%20of%20missed-call%20text-back">Ask for a free test <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn ghost" href="#demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M7 4.5v15l13-7.5z"/></svg> Watch Live AI Demo</a>
+      </div>
+      <p class="fine reveal" style="--d:.22s">For small HVAC companies in the US, UK, Canada and Australia. Contact: textbackdesk.jahangir@gmail.com</p>
     </div>
-    <div class="phone" role="group" aria-label="Example text thread">
-      <div class="tag"><span>Example thread</span><span>Demo, not a real client</span></div>
-      <div class="sys">Missed call &middot; 6:42 PM</div>
-      <div class="msg out">Hi, this is Example HVAC Co. Sorry we missed your call. Is your system not cooling, not heating, or something else? Send the address and we'll get back to you shortly. Reply STOP to opt out.</div>
-      <div class="time">6:42 PM &middot; sent in 28 seconds</div>
-      <div class="msg in">AC blew warm air all day. 22 Cedar Lane.</div>
-      <div class="time">6:44 PM</div>
+    <div class="stage"><div class="device" role="group" aria-label="Simulated demo of an AI assistant texting a missed caller">
+  <div class="device-in" id="hero-sim">
+    <div class="dev-top">
+      <div class="orb" data-role="orb" aria-hidden="true"></div>
+      <div class="dev-title"><b>AI Assistant Active</b><span><i class="pulse"></i><em style="font-style:normal" data-role="sub">Watching your line</em></span></div>
+      <span class="sim-tag">Simulated demo</span>
+    </div>
+    <div class="call" data-role="call" data-s="idle">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div>
+      <div class="who"><b>(555) 010-0142</b><span data-role="callstate">Waiting for calls</span></div>
+    </div>
+    <div class="thread" data-role="thread" aria-live="polite"></div>
+    <div class="lead-toast" data-role="lead">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg></div>
+      <div><b>New Lead Captured</b><span data-role="lead-detail">Example lead</span></div>
+    </div>
+    <div class="live-row"><span><i class="pulse"></i>Live activity</span><span data-role="rt">Reply time: &mdash;</span></div>
+  </div>
+</div></div>
+  </div>
+</section>
+
+<section style="padding-top:40px">
+  <div class="wrap grid2" style="align-items:start;gap:40px">
+    <div class="reveal"><span class="eyebrow">The problem</span><h2 style="font-size:clamp(26px,3.4vw,36px);margin-bottom:22px">Why HVAC companies miss calls</h2><ul class="why-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>You are on a roof or in an attic when the phone rings.</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>Peak summer and winter days bring more calls than one person can answer.</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>Emergency calls come after hours, when nobody is at the desk.</span></li></ul></div>
+    <div class="glass reveal" style="padding:26px;--d:.1s"><p style="color:var(--muted)">Invoca&rsquo;s home-services benchmark, reported by Vendasta, found HVAC calls reached a person 34% of the time. The average HVAC repair job is about $1,205 (Housecall Pro 2025, reported by Aibrify). These are third-party figures, not results from my own clients.</p></div>
+  </div>
+</section>
+
+<section id="demo">
+  <div class="wrap demo-grid">
+    <div class="demo-copy reveal">
+      <span class="eyebrow">Live demo</span>
+      <h2>See Your AI Receptionist in Action.</h2>
+      <ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>Watch a missed call turn into a text conversation.</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>See how job details are collected by text.</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>Every message here is a simulated example, not a real customer.</span></li></ul>
+      <div class="demo-actions">
+        <button class="btn" id="sim-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><span>Simulate Missed Call</span></button>
+        <p class="fine">Simulated product demo. No real call, text or AI service is used on this page.</p>
+      </div>
+    </div>
+    <div class="stage reveal" style="--d:.1s"><div class="device" role="group" aria-label="Interactive simulated text conversation">
+  <div class="device-in" id="demo-sim">
+    <div class="dev-top">
+      <div class="orb" data-role="orb" aria-hidden="true"></div>
+      <div class="dev-title"><b>AI Assistant Active</b><span><i class="pulse"></i><em style="font-style:normal" data-role="sub">Watching your line</em></span></div>
+      <span class="sim-tag">Simulated demo</span>
+    </div>
+    <div class="call" data-role="call" data-s="idle">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div>
+      <div class="who"><b>(555) 010-0142</b><span data-role="callstate">Waiting for calls</span></div>
+    </div>
+    <div class="thread" data-role="thread" aria-live="polite"></div>
+    <div class="lead-toast" data-role="lead">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg></div>
+      <div><b>New Lead Captured</b><span data-role="lead-detail">Example lead</span></div>
+    </div>
+    <div class="live-row"><span><i class="pulse"></i>Live activity</span><span data-role="rt">Reply time: &mdash;</span></div>
+  </div>
+</div></div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="eyebrow">How it works</span><h2>Three steps from missed call to captured lead.</h2><p class="lead">I set it up for you and test it with real calls. Text-only: it does not answer or place calls, and it does not guarantee more jobs.</p></div>
+    <div class="grid3"><div class="card reveal" style="--d:0.0s"><span class="step-n">01</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div><h3>Missed Call Detected</h3><p>Your system detects when a customer calls and nobody answers.</p></div><div class="card reveal" style="--d:0.1s"><span class="step-n">02</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z"/></svg></div><h3>AI Instantly Responds</h3><p>Your AI assistant sends a personalized text message automatically.</p></div><div class="card reveal" style="--d:0.2s"><span class="step-n">03</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg></div><h3>Lead Captured</h3><p>The conversation continues and helps your business recover the opportunity.</p></div></div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="eyebrow">Pricing</span><h2>Simple, transparent pricing.</h2><p class="lead">Month-to-month. The exact price and what it covers are confirmed in writing before you pay anything.</p></div>
+    <div class="price-card reveal"><div class="price-in">
+      <span class="price-flag">Founding price &middot; first 5 clients</span>
+      <div class="price-nums"><div><b>$99</b><span>one-time setup</span></div><div><b>$127</b><span>per month</span></div></div>
+      <p class="reg">Standard pricing after the founding spots: <b>$299 setup</b> + <b>$197 / month</b>.</p>
+      <ul class="checks"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>AI missed-call text-back</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>Automated follow-ups</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>Lead capture</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>Setup assistance</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6 9 17l-5-5"/></svg><span>Ongoing support</span></li></ul>
+      <a class="btn" href="mailto:textbackdesk.jahangir@gmail.com?subject=Get%20started%20with%20TextBack%20Desk">Get Started Today <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <p class="fine">Month-to-month, cancel anytime. All communication is by email, so there are no sales calls.</p>
+    </div></div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="eyebrow">FAQ</span><h2>Questions, answered.</h2></div>
+    <div class="faq reveal"><details><summary>How does TextBack Desk work?</summary><p>When a customer calls your business number and nobody answers, an automatic text goes out to that caller. The customer can reply, the conversation collects their job details, and you see the lead so you can call back the ones worth your time. It is text-only: it does not answer or place phone calls.</p></details><details><summary>Can the text tell emergency calls from routine ones?</summary><p>The text asks one simple question about what is wrong. You read the reply and decide who to call back first. It does not dispatch a technician or book a job by itself.</p></details><details><summary>Do I need to change my phone number?</summary><p>No. You keep your existing business number and your customers keep calling it. The exact call-handling setup depends on your phone provider and is worked out with you during setup.</p></details><details><summary>How quickly does the customer receive a text?</summary><p>The goal is within about 30 seconds of the missed call. In the US, business texting first needs A2P 10DLC carrier registration (your legal business name, address, website and usually an EIN). Approval can take days to a couple of weeks, so texts may not go live on day one.</p></details><details><summary>Is there a setup fee?</summary><p>Yes. The founding price for the first 5 clients is $99 setup and $127 per month. Standard pricing after that is $299 setup and $197 per month. The exact price is confirmed in writing before you pay anything.</p></details><details><summary>Can I cancel my subscription?</summary><p>Yes. It is month-to-month and you can cancel anytime.</p></details></div>
+  </div>
+</section>
+
+<section style="padding:0 0 24px"><div class="wrap fine" style="text-align:center">Also available for: <ul style="display:inline-flex;gap:16px;list-style:none;padding:0;margin:0 0 0 8px;flex-wrap:wrap;justify-content:center"><li><a href="../plumbing/">Plumbing</a></li><li><a href="../electrical/">Electrical</a></li></ul></div></section>
+
+<section class="final">
+  <div class="wrap"><div class="final-card reveal">
+    <h2>Never lose another customer<br>to a missed call.</h2>
+    <p>Tell me about your business and I will set up your missed-call text-back. Pricing is confirmed in writing before you pay anything.</p>
+    <div class="cta-row"><a class="btn" href="mailto:textbackdesk.jahangir@gmail.com?subject=Start%20recovering%20lost%20leads">Start Recovering Lost Leads <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  </div></div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="../"><span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></span>TextBack Desk</a>
+        <p>Missed-call text-back for small HVAC, plumbing and electrical companies. Run by Jahangir.</p>
+      </div>
+      <div><h4>Product</h4><ul><li><a href="../#demo">Live demo</a></li><li><a href="../#how">How it works</a></li><li><a href="../#pricing">Pricing</a></li><li><a href="../#faq">FAQ</a></li></ul></div>
+      <div><h4>Industries</h4><ul><li><a href="../hvac/">HVAC</a></li><li><a href="../plumbing/">Plumbing</a></li><li><a href="../electrical/">Electrical</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="mailto:textbackdesk.jahangir@gmail.com?subject=TextBack%20Desk">textbackdesk.jahangir@gmail.com</a></li><li><a href="../privacy/">Privacy Policy</a></li><li><a href="../terms/">Terms of Service</a></li></ul></div>
+    </div>
+    <div class="foot-note">
+      <span>All conversations, numbers, names and dashboard figures on this site are simulated examples, not real customer conversations or results. Results vary by business and call volume.</span>
+      <span>&copy; <span id="year">2026</span> TextBack Desk. All rights reserved.</span>
     </div>
   </div>
-</div>
-<section><div class="wrap"><h2>Why HVAC companies miss calls</h2><ul class="tick"><li>You are on a roof or in an attic when the phone rings.</li><li>Peak summer and winter days bring more calls than one person can answer.</li><li>Emergency calls come after hours, when nobody is at the desk.</li></ul><p class="fine" style="margin-top:14px">Invoca's home-services benchmark, reported by Vendasta, found HVAC calls reached a person 34% of the time. The average HVAC repair job is about $1,205 (Housecall Pro 2025, reported by Aibrify). These are third-party figures, not results from my own clients.</p></div></section>
-<section id="how"><div class="wrap"><h2>How it works</h2>
-<div class="grid3">
-<div class="card"><div class="n">1</div><h3>You send me details</h3><p>Business name, the number customers call, and the services you offer.</p></div>
-<div class="card"><div class="n">2</div><h3>I set it up</h3><p>I configure the text-back, test it with real calls, and guide you through the carrier registration US texting needs.</p></div>
-<div class="card"><div class="n">3</div><h3>Missed calls get a text</h3><p>The customer replies, you see the job details, and you call back the ones worth your time.</p></div></div>
-<p class="fine" style="margin-top:14px">Text-only. It does not answer or place calls, and it does not guarantee more jobs.</p></div></section>
-<section id="pricing"><div class="wrap"><h2>Founding price</h2><p class="fine" style="margin:-10px 0 16px">For my first 5 clients. Month-to-month, cancel anytime.</p><div class="card"><div class="price"><div><b>$99</b><div class="fine">one-time setup</div></div><div><b>$127</b><div class="fine">per month</div></div></div><p class="fine" style="margin-top:14px">Confirmed in writing before you pay anything. All communication is by email, so there are no sales calls.</p><p style="margin-top:18px"><a class="btn" href="mailto:textbackdesk.jahangir@gmail.com?subject=Missed-call%20text-back">Email me</a></p></div></div></section>
-<section id="faq"><div class="wrap"><h2>Questions</h2><details><summary>What is missed-call text-back?</summary><p>It is an automatic text sent to a customer when their call to your business goes unanswered. It keeps the conversation open so the customer does not call the next company.</p></details><details><summary>Is this an AI that answers my phone calls?</summary><p>No. This service is text-only. It does not answer or place phone calls.</p></details><details><summary>Can the text tell emergency calls from routine ones?</summary><p>The text asks one simple question about what is wrong. You read the reply and decide who to call back first. It does not dispatch a technician or book a job by itself.</p></details><details><summary>Do I need to register my business to send these texts in the US?</summary><p>Yes. US carriers require A2P 10DLC registration for business texts sent from a standard local number, including automatic missed-call replies. It needs your legal business name, address, website and usually an EIN. Approval can take days to a couple of weeks, so texts may not go live on day one.</p></details><details><summary>How much does it cost?</summary><p>Founding price for the first 5 clients: $99 setup and $127 per month, month-to-month. The exact price is confirmed in writing before you pay anything.</p></details></div></section>
-</main>
-<footer><div class="wrap"><p><strong>TextBack Desk</strong> &middot; Run by Jahangir. Contact: textbackdesk.jahangir@gmail.com</p><div class="links"><a href="../">Home</a><a href="../plumbing/">Plumbing</a><a href="../electrical/">Electrical</a></div><p>Example messages are demonstrations, not real customer conversations. Results vary by business and call volume.</p></div></footer>
-</body></html>
+</footer>
+<script src="../assets/app.js" defer></script>
+</body>
+</html>
